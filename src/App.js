@@ -24,7 +24,7 @@ function App() {
             component={Search}
           />
 
-          <Route path="/watched" component={Favorites} />
+          <Route path="/favorite" component={Favorites} />
           <Route path="/movie/:movieID" component={MovieDetails} />
         </Switch>
       </Router>

@@ -19,7 +19,7 @@ const Favorite = () => {
         {watched.length > 0 ? (
           <div className="movie-grid">
             {watched.map((movie) => (
-              <MovieCard movie={movie} key={movie.imdbID} type="watched" />
+              <MovieCard movie={movie} key={movie.imdbID} type="favorite" />
             ))}
           </div>
         ) : (

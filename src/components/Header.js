@@ -14,7 +14,7 @@ export const Header = () => {
             
 
             <li>
-              <Link to="/watched">Favorite Movies <FavoriteSharpIcon className="faviort-icon" /></Link>
+              <Link to="/favorite">Favorite Movies <FavoriteSharpIcon className="faviort-icon" /></Link>
             </li>
 
             <li>
