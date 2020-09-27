@@ -1,9 +1,9 @@
 import React, { useContext, useState } from "react";
 import Moment from "react-moment";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 import { GlobalContext } from "../context/GlobalState";
 import "../lib/font-awesome/css/style.css";
-import FavoriteSharpIcon from '@material-ui/icons/FavoriteSharp';
+import FavoriteSharpIcon from "@material-ui/icons/FavoriteSharp";
 export const ResultCard = ({ movie }) => {
   const [colorClass, setColorClass] = useState("");
   const {
@@ -19,10 +19,11 @@ export const ResultCard = ({ movie }) => {
   return (
     <div className="result-card">
       <div className="card-container1">
-      <Link to={`/movie/${movie.imdbID}`}>
-        <div>
-         <h3 className="title">{movie.Title}</h3>
-        </div>
+        <Link to={`/movie/${movie.imdbID}`}>
+          <div>
+            <h3 className="title">{movie.Title}</h3>
+          </div>
+        </Link>
         <div className="poster-wrappers1">
           <button
             className="btn1"
@@ -45,7 +46,6 @@ export const ResultCard = ({ movie }) => {
             <div className="filler-poster" />
           )}
         </div>
-        </Link>
 
         <div className="info1">
           <div>

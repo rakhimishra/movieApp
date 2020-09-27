@@ -43,7 +43,7 @@ const Search = () => {
         <input
           className="input2"
           type="text"
-          placeholder="Search for a movie"
+          placeholder="Search for a movie,series and episodes....."
           value={query}
           onChange={onChange}
         />
