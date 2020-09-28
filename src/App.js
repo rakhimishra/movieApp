@@ -20,7 +20,7 @@ function App() {
           <Route exact path="/" component={Search} />
           <Route
             exact
-            path="/React-movie-search-application"
+            path="/movieApp"
             component={Search}
           />
 
